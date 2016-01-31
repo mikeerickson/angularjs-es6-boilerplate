@@ -2,7 +2,11 @@
 
 ## Introduction
 
-Put something good here...
+AngularJS ES6 Boilerplate contains all the tooling required to get up and running quickly using ES6 with AngularJS.  
+  
+This package uses Babel 6 to generate bundle.  
+  
+  
 
 ### Babel
 
@@ -10,7 +14,7 @@ Requires Babel 6.x or greater
 
 ## Examples
 
-Here are a few examples:
+There a few examples supplied which will help you get started.  More examples will be added as this package evolves.  If you need assistance with something specific, please let us know by adding an issue (issue link here)
 
 ### Directive
 
@@ -153,3 +157,21 @@ npm run build
 ```sh
 npm run dev
 ```
+
+### License
+
+Copyright (c) 2016 Mike Erickson
+Released under the MIT license
+
+## Credits
+
+angularjs-es6-boilerplate written by Mike Erickson
+
+Issues: [https://github.com/mikeerickson/angularjs-es6-boilerplate/issues](https://github.com/mikeerickson/angularjs-es6-boilerplate/issues)
+
+E-Mail: [codedungeon@gmail.com](mailto:codedungeon@gmail.com)
+
+Twitter: [@codedungeon](http://twitter.com/codedungeon)
+
+Website: [codedungeon.org](http://codedungeon.org)
+
