@@ -1,0 +1,7 @@
+.idea
+dev-notes.md
+TODO.md
+/dist/
+/node_modules/
+/sandbox/
+/logs/
