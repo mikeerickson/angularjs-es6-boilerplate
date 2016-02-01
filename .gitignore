@@ -1,7 +1,9 @@
 .idea
 dev-notes.md
+/tasls/todo.es6
 TODO.md
-/dist/
-/node_modules/
-/sandbox/
-/logs/
+dist/
+node_modules/
+sandbox/
+logs/
+example/

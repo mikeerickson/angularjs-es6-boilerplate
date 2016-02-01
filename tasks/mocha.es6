@@ -19,3 +19,5 @@ gulp.task('mocha', function() {
 			compilers: { js: babel }
 		}));
 })
+
+gulp.task('test', ['mocha'])

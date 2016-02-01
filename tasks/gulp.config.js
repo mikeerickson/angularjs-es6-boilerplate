@@ -7,15 +7,16 @@ module.exports = {
 
 	scripts: {
 		src:  ['./src/**/*.{js,jsx,es6}'],
-		dest: './dist'
+		dest: './dist/js'
 	},
 
 	todo: {
-		src: ['./src/**/*.*','./specs/**/*.*']
+		src: ['./src/**/*.*', './tasks/**/*.*' ,'./specs/**/*.*']
 	},
 
 	tests: {
-		specs: ['./specs/**/*Spec.{js,es6}']
+		specs: ['./specs/**/*Spec.{js,es6}'],
+		src:   ['./src/**/*.{js,jsx,es6}']
 	},
 
 	lint: {

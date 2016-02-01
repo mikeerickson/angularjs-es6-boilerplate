@@ -12,6 +12,21 @@ This package uses Babel 6 to generate bundle.
 
 Requires Babel 6.x or greater
 
+### Build System
+
+We have chosen to use gulp with this project, with all tasks using ES6 syntax (the goal of this entire package is to use ES6)
+
+There are several tasks supplied to help during development
+
+- build:scripts
+  This will transpile all the ES6 code into ES5, placing output in the./dist directory
+- build
+  Full build tasks (build:scripts, eslint, mocha)
+- eslint (alias lint)
+  This will lint all tasks and src files using ESLint
+- mocha (alias test)
+  Provides tests for all src files
+
 ## Examples
 
 There a few examples supplied which will help you get started.  More examples will be added as this package evolves.  If you need assistance with something specific, please let us know by adding an issue (issue link here)
