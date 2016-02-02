@@ -1,9 +1,10 @@
 .idea
-dev-notes.md
-/tasls/todo.es6
 TODO.md
-dist/
-node_modules/
-sandbox/
-logs/
-example/
+dev-notes.md
+/tasks/todo.es6
+/tasks/_disabled/
+/dist/
+/node_modules/
+/sandbox/
+/logs/
+/example/
