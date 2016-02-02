@@ -2,7 +2,7 @@
 class Erickson {
 	constructor() {
 		this.surname = 'Erickson'
-		console.log('userService factory')
+		console.log('Erickson factory')
 	}
 
 	getSurname() {
@@ -36,4 +36,4 @@ class Erickson {
 
 Erickson.$inject = [];
 
-angular.module('ng-es6').service('ericksonFactory', Erickson);
+angular.module('ng-es6').factory('ericksonFactory', Erickson);
