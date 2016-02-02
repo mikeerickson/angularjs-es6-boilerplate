@@ -1,5 +1,5 @@
 {
   "port": 4242,
-  "files": ["./src/**/*.{html,htm,css,js,es6}"],
+  "files": ["./dist/**/*.{html,htm,css,js,es6}"],
   "server": { "baseDir": "./dist" }
 }

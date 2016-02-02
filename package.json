@@ -34,7 +34,9 @@
     "test": "gulp mocha",
     "test1": "babel-node ./node_modules/gulp/bin/gulp.js test",
     "build": "babel-node ./node_modules/gulp/bin/gulp.js build",
-    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .es6 .js,.jsx ."
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .es6 .js,.jsx .",
+    "start": "lite-server",
+    "serve": "lite-server"
   },
   "main": "./dist/index.js",
   "dependencies": {
@@ -52,6 +54,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "babel-preset-stage-1": "^6.3.13",
     "babelify": "7.2.0",
+    "browser-sync": "2.11.1",
     "chai": "3.5.0",
     "eslint": "^1.10.3",
     "eslint-loader": "^1.2.0",

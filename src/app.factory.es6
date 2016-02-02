@@ -1,8 +1,8 @@
 
-class UserService {
-	constructor($http) {
+class Erickson {
+	constructor() {
 		this.surname = 'Erickson'
-		console.log('userService constructor')
+		console.log('userService factory')
 	}
 
 	getSurname() {
@@ -34,6 +34,6 @@ class UserService {
 	}
 }
 
-UserService.$inject = ['$http'];
+Erickson.$inject = [];
 
-angular.module('ng-es6').service('userService', UserService);
+angular.module('ng-es6').service('ericksonFactory', Erickson);

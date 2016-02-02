@@ -20,8 +20,10 @@ class AppController {
 	}
 
 	init() {
-		console.log('daddy', this.userService.getDaddy())
+		console.log('parents', this.userService.getParents())
+		console.log('kids', this.userService.getKids())
 		console.log('dogs', this.userService.getDogs())
+		console.log('test');
 		this.heros = []
 	}
 
@@ -43,6 +45,26 @@ class AppController {
 
 	removeHero(index) {
 		this.heros.splice(index, 1);
+	}
+
+	surname() {
+		return this.userService.getSurname()
+	}
+
+	parents() {
+		return this.userService.getParents().toString()
+	}
+
+	kids() {
+		return this.userService.getKids().toString()
+	}
+
+	dogs() {
+		return this.userService.getDogs().toString()
+	}
+
+	grandkids() {
+		return this.userService.getGrandkids().toString()
 	}
 }
 
