@@ -1,3 +1,5 @@
+// TODO: This is not working, reference this post for details
+// TODO: http://www.michaelbromley.co.uk/blog/350/exploring-es6-classes-in-angularjs-1-x
 
 class Erickson {
 	constructor() {

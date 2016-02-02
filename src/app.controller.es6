@@ -23,7 +23,7 @@ class AppController {
 		console.log('parents', this.userService.getParents())
 		console.log('kids', this.userService.getKids())
 		console.log('dogs', this.userService.getDogs())
-		console.log('test');
+
 		this.heros = []
 	}
 

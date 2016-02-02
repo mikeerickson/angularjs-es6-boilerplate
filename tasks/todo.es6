@@ -26,7 +26,6 @@ gulp.task('todo:json', () => {
 		.pipe(gulp.dest('./'));
 });
 
-// TODO: Why is this task not creating the todo.json file as it should
 // output once in markdown and then output a json file as well
 gulp.task('todo:reporters', () => {
 	gulp.src(config.todo.src)
